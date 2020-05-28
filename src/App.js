@@ -16,14 +16,16 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import Form2 from './components/Form2';
 import Counter2 from './components/Counter2';
+import PostList from './components/PostList';
+
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-            
-              <Counter2 />
-              {/*<Counter />
+              <PostList />
+              {/*<Counter2 />
+              <Counter />
               <Form2 />
               <LifecycleA />
               <FragmentDemo />
