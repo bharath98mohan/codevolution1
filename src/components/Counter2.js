@@ -41,7 +41,7 @@ class Counter2 extends Component {
 				<button onClick ={() => this.incrementIceCream()}>Increment icecream</button>
 			
 
-				<button type= "submit" onClick={this.handleSubmit} >Submit</button>
+				<button type= "submit" onClick={this.handleSubmit}>Submit</button>
 				
 			</div>
 		);

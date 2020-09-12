@@ -9,28 +9,28 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
+
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import Form2 from './components/Form2';
 import Counter2 from './components/Counter2';
-import PostList from './components/PostList';
 
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-              <PostList />
-              {/*<Counter2 />
+             
+              {/*<PostList />*/}
+              <Counter2 />
               <Counter />
               <Form2 />
               <LifecycleA />
               <FragmentDemo />
               <Form />
-              <Stylesheet />
+           
               <NameList />
               <EventBind />
               <FunctionClick />
@@ -43,7 +43,7 @@ class App extends Component {
               <Welcome name="Bruce"/>
               <Welcome name="Ahalya"/>
               <Welcome name="tanha"/>
-              <Hello />*/}
+              <Hello />
       </div>
     );
   }
